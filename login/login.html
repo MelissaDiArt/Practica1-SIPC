@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="login.css" />
+    </head>
+    <body>
+
+      <!-- Código de inicio de sesión-->
+      <div id="login">
+          <form class="reg" action="./si.html" onsubmit="return comprobar()" method="get">
+          <div class="form">
+            <h1>Login</h1>
+            <div class="input">
+              <span class="icon"><i class="fa fa-at"></i></span>
+              <input type="text" id="mail" name="mail" value="" required autocomplete="off" autofocus placeholder="Email"/>
+              <p id="email"></p>
+            </div>
+
+            <div class="input">
+              <span class="icon"><i class="fa fa-lock"></i></span>
+              <input type="password" id="pass" name="pass" value="" required autocomplete="off" autofocus placeholder="Password"/>
+              <p id="mipass"></p>
+            </div>
+
+            <div class="submit">
+              <input type="submit" onClick="loadNewPage()" value="Sign in"/>
+              <span id="sign">Don't have account? <a href="../SingUp/registro.html">Sign up</a></span>
+            </div>
+          </div>
+        </div>
+            </form>
+        <script type="text/javascript" src="login.js"></script>
+    </body>
+</html>

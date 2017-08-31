@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="registro.css" />
+    </head>
+    <body>
+        <!-- Codigo de formulario de registro -->
+        <form class="reg" action="./yes.html" onsubmit="return comprobar()" method="get">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" value="" required autocomplete="off" autofocus placeholder="Name"><br>
+            <p id="ename"></p>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname" value="" required autocomplete="off" autofocus placeholder="First Name"><br>
+            <p id="efname"></p>
+            <label for="mail">Email:</label>
+            <input type="text" id="mail" name="mail" value="" required autocomplete="off" autofocus placeholder="Email"><br>
+            <p id="email"></p>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" value="" required autocomplete="off" autofocus placeholder="Password"><br>
+            <p id="mipass"></p>
+            <input type="submit" name="submit" value="Sing Up">
+        </form>
+        <script type="text/javascript" src="registro.js"></script>
+    </body>
+</html>
